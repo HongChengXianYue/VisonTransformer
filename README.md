@@ -1,4 +1,4 @@
 # VisonTransformer
-基于VisionTransformer的图像识别
+VisionTransformer为bockbone得检测网络
 ## 小组
 
