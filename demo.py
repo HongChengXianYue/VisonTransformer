@@ -109,9 +109,10 @@ class VisionTransformer(nn.Module):
 
 # 示例用法
 if __name__ == "__main__":
-    model = VisionTransformer(img_size=224, patch_size=16, in_channels=3,
-                              num_classes=10, embed_dim=768,
-                              num_heads=12, hidden_dim=3072, num_layers=12)
-    x = torch.randn(1, 3, 224, 224)  # 示例输入
-    output = model(x)
-    print(output.shape)  # 应该是 [1, 10]
+    # model = VisionTransformer(img_size=224, patch_size=16, in_channels=3,
+    #                           num_classes=10, embed_dim=768,
+    #                           num_heads=12, hidden_dim=3072, num_layers=12)
+    # x = torch.randn(1, 3, 224, 224)  # 示例输入
+    # output = model(x)
+    # print(output.shape)  # 应该是 [1, 10]
+    pass
